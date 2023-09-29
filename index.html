@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+    <div class="calc-body">
+        <div class="memory-bar">
+            <div class="memory-container">
+                <div class="memory-marker"></div>
+            </div>
+        </div>
+        <div class="calc-main">
+            <div class="top-buttons-container">
+                <button class="btn btn-top" id="clear-memory">Clear Memory</button>
+                <button class="btn btn-top" id="clear-history">Clear History</button>  
+            </div>          
+            <div class="screen">
+                <div class="operation"></div>
+                <div class="numbers"></div>
+            </div>
+            <div class="buttons-container"><div class="buttons">
+                <button class="btn" id="m+">m+</button>
+                <button class="btn" id="c">c</button>
+                <button class="btn" id="sqrt">sqrt(x)</button>
+                <button class="btn" id="backspace">&lt;-</button>
+
+                <button class="btn" id="sin">sin(x)</button>
+                <button class="btn" id="cos">cos(x)</button>
+                <button class="btn" id="^">x^<sup>y</sup></button>
+                <button class="btn" id="*">*</button>
+
+                <button class="btn" id="7">7</button>
+                <button class="btn" id="8">8</button>
+                <button class="btn" id="9">9</button>
+                <button class="btn" id="/">/</button>
+
+                <button class="btn" id="4">4</button>
+                <button class="btn" id="5">5</button>
+                <button class="btn" id="6">6</button>
+                <button class="btn" id="-">-</button>
+
+                <button class="btn" id="1">1</button>
+                <button class="btn" id="2">2</button>
+                <button class="btn" id="3">3</button>
+                <button class="btn" id="+">+</button>
+
+                <button class="btn" id="sign">-/+</button>
+                <button class="btn" id="0">0</button>
+                <button class="btn" style="font-weight: bold;" id=".">.</button>
+                <button class="btn" style="font-weight: bold;" id="=">=</button>
+                <button class="btn" id="e">e</button>
+                <button class="btn" id="pi">Pi</button>
+            </div></div>
+        </div>
+        <div class="history">
+            <div class="history-container testclass">
+                <div class="history-marker"></div>
+            </div>
+        </div> 
+
+
+
+
+    </div>
+    </div>
+    <script src="node_modules\decimal.js\decimal.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
